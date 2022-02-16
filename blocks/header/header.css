@@ -1,0 +1,32 @@
+.header {
+    max-width: calc(100% - 96px);
+    height: 52px;
+    margin-top: 28px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .header {
+        margin: 28px auto 48px;
+        max-width: calc(100% - 96px);
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .header {
+        margin: 28px auto 48px;
+        max-width: calc(100% - 48px);
+    }
+}
+
+@media (max-width: 425px) {
+    .header {
+        margin: 28px auto 48px;
+        max-width: calc(100% - 32px);
+    }
+}
