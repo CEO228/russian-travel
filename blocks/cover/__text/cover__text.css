@@ -17,8 +17,6 @@
 
 @media (max-width: 320px) {
     .cover__text {
-        margin-right: auto;
-        margin-left: auto;
         width: 288px;
     }
 }
